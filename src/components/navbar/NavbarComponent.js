@@ -1,6 +1,6 @@
 import React from "react";
 import { Container, Nav, Navbar } from "react-bootstrap";
-import ethereumLogo from "../../assets/ethereumLogo.png";
+//import ethereumLogo from "../../assets/ethereumLogo.png";
 import "./NavbarComponent.css";
 const NavbarComponent = () => {
   return (

@@ -1,7 +1,6 @@
 import React from "react";
-import { Col, Container, Row } from "react-bootstrap";
-import batOne from "../../assets/batOne.gif";
-import batTwo from "../../assets/batTwo.gif";
+import {  Container, Row } from "react-bootstrap";
+
 import "./BloodBank.css";
 const BloodBank = () => {
   return (

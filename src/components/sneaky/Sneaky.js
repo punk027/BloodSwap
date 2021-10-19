@@ -1,6 +1,6 @@
 import React from "react";
 import { Button } from "react-bootstrap";
-import vampLogo from "../../assets/vamp-logo.svg";
+//import vampLogo from "../../assets/vamp-logo.svg";
 import "./Sneaky.css";
 
 const Sneaky = () => {
