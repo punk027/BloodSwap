@@ -1,0 +1,14 @@
+#root,
+html,
+nav.navbar {
+  background-color: #000 !important;
+}
+
+@media (max-width: 768px) {
+  .sneaky_bloodbank {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: auto;
+  }
+}

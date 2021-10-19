@@ -1,0 +1,17 @@
+.vamp_logo {
+  background: #000;
+}
+
+.sneaky_container {
+  position: absolute;
+  left: 1%;
+  top: 15%;
+}
+
+@media (max-width: 768px) {
+  .sneaky_container {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+  }
+}

@@ -1,0 +1,36 @@
+.bat_gif {
+  width: 50%;
+}
+
+.t_blood_bank {
+  font-size: 1.8em;
+  color: #fff;
+  text-align: center;
+  font-weight: bold;
+  margin: 1.5em auto;
+  text-shadow: 2px 2px 1px #300000, 2px 6px 1px #400000, 2px 8px 1px #500000,
+    2px 10px 1px #600000, 2px 12px 1px #700000, 2px 14px 1px maroon,
+    2px 16px 1px #900000, 2px 18px 1px #a00000, 2px 20px 1px #b00000,
+    2px 22px 1px #c00000, 2px 24px 1px #d00000, 2px 26px 1px #e00000,
+    2px 28px 1px #f00000, 2px 30px 1px #fa0000, 2px 32px 1px #fb0000,
+    2px 34px 1px #fc0000, 2px 36px 1px #fd0000, 2px 38px 1px #fe0000,
+    2px 40px 2px red;
+}
+
+.container_bloodbank {
+  width: 40%;
+}
+
+@media (max-width: 768px) {
+  .container_bloodbank {
+    width: 100%;
+  }
+}
+#uniswap_iframe {
+  border: 0;
+  margin: auto;
+  position: flex;
+  border-radius: 10px;
+  max-width: 600px;
+  min-width: 300px;
+}

@@ -1,0 +1,57 @@
+.eth_icon_navbar {
+  height: 1em;
+}
+
+.route_item {
+  background: #a51212;
+  color: white !important;
+  margin: auto 1em;
+  border-radius: 10%;
+  border: none;
+  font-size: 0.8em;
+  font-weight: bold !important;
+}
+
+@media (max-width: 768px) {
+  nav .route_item {
+    background: #2c2c2e;
+    width: 100%;
+    margin: auto;
+    text-align: center;
+  }
+  nav.navbar .container {
+    margin-right: unset;
+    text-align: center;
+  }
+  .show,
+  .collapse,
+  .collapsing {
+    background: #2c2c2e;
+  }
+}
+
+.t_swap {
+  border-radius: 500px;
+  border: 4px solid rgb(159, 171, 216);
+  background: #a51212;
+  color: white !important;
+  font-weight: bold !important;
+  padding: auto 1em !important;
+  font-size: 0.8em;
+  margin: auto 2em;
+}
+
+nav.navbar .container {
+  margin-right: 0;
+}
+@media (min-width: 1900px) {
+  nav.navbar .container {
+    /* margin-right: auto; */
+  }
+}
+nav.navbar-dark .navbar-toggler {
+  margin-left: 70vw !important;
+  border: 4px solid #eee;
+  border-radius: 500px;
+  background: #a51212;
+}
