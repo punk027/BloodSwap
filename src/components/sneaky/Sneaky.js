@@ -1,5 +1,5 @@
 import React from "react";
-import { Button } from "react-bootstrap";
+//import { Button } from "react-bootstrap";
 //import vampLogo from "../../assets/vamp-logo.svg";
 import "./Sneaky.css";
 
@@ -9,7 +9,7 @@ const Sneaky = () => {
     { /* <img className="vamp_logo" src={vampLogo} alt="vamp" />*/}
       <br />
       <br />
-      <Button className="route_item">Staking</Button>
+     {/* <Button className="route_item">Staking</Button> */}
     </div>
   );
 };

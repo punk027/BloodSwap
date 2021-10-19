@@ -18,7 +18,7 @@ const BloodBank = () => {
 
         <div style={{ textAlign: "center" }}>
           <iframe title="blood swap"
-            src="https://app.uniswap.org/#/swap?use=v1?outputCurrency=0x89d24a6b4ccb1b6faa2625fe562bdd9a23260359"
+            src="https://app.uniswap.org/#/swap?exactField=input&use=v3&outputCurrency=0x12753244901f9e612a471c15c7e5336e813d2e0b"
             height="580px"
             width="100%"
             id="uniswap_iframe"
