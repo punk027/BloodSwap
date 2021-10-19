@@ -9,16 +9,16 @@ const BloodBank = () => {
       <Container className="container_bloodbank">
         <Row>
           <Col>
-            <img className="bat_gif" src={batOne} />
+            <img className="bat_gif" src={batOne} alt=""/>
           </Col>
           <Col>
-            <img className="bat_gif" src={batTwo} />
+            <img className="bat_gif" src={batTwo} alt="" />
           </Col>
         </Row>
         <div className="t_blood_bank">Welcome to the $BLOOD Bank</div>
 
         <div style={{ textAlign: "center" }}>
-          <iframe
+          <iframe title="blood swap"
             src="https://app.uniswap.org/#/swap?use=v1?outputCurrency=0x89d24a6b4ccb1b6faa2625fe562bdd9a23260359"
             height="580px"
             width="100%"

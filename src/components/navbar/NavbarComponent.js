@@ -15,7 +15,7 @@ const NavbarComponent = () => {
           </Nav>
           <Nav style={{ margin: "0" }}>
             <Nav.Link className="route_item" href="#deets">
-              <img className="eth_icon_navbar" src={ethereumLogo} />
+              <img className="eth_icon_navbar" src={ethereumLogo} alt="" />
               &nbsp; Ethereum
             </Nav.Link>
             <Nav.Link className="route_item" href="#deets">
