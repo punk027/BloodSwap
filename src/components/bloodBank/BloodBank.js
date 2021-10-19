@@ -8,12 +8,12 @@ const BloodBank = () => {
     <>
       <Container className="container_bloodbank">
         <Row>
-          <Col>
+         {/* <Col>
             <img className="bat_gif" src={batOne} alt=""/>
           </Col>
           <Col>
             <img className="bat_gif" src={batTwo} alt="" />
-          </Col>
+         </Col>*/}
         </Row>
         <div className="t_blood_bank">Welcome to the $BLOOD Bank</div>
 

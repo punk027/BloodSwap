@@ -9,10 +9,9 @@ const NavbarComponent = () => {
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="m-auto">
-            <Nav.Link className="t_swap" href="#pricing">
-              Swap
-            </Nav.Link>
+           
           </Nav>
+         { /*
           <Nav style={{ margin: "0" }}>
             <Nav.Link className="route_item" href="#deets">
               <img className="eth_icon_navbar" src={ethereumLogo} alt="" />
@@ -25,7 +24,7 @@ const NavbarComponent = () => {
             <Nav.Link className="route_item" href="#memes">
               ...
             </Nav.Link>
-          </Nav>
+         </Nav>*/}
         </Navbar.Collapse>
       </Container>
     </Navbar>
